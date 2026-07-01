@@ -1,0 +1,12 @@
+# Source photos (not used on site, only originals for future rebuild)
+picture/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+
+# Deps (in case something is added later)
+node_modules/

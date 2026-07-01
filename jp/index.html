@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Foreign SPA — 東京・仲御徒町のメンズエステ。アジアンセラピストによる本格リラクゼーション。完全個室・予約優先。">
+  <title>Foreign SPA | 東京・仲御徒町 メンズエステ</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Noto+Sans+JP:wght@300;400;500&family=Noto+Sans+SC:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="../landing.html" class="logo">Foreign SPA</a>
+      <button class="nav-toggle" aria-label="メニューを開く" aria-expanded="false">
+        <span></span>
+        <span></span>
+      </button>
+      <div class="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#event">キャンペーン</a></li>
+          <li><a href="#therapist">セラピスト</a></li>
+          <li><a href="#news">お知らせ</a></li>
+          <li><a href="#visit">アクセス</a></li>
+          <li><a href="#visit">ご来店</a></li>
+        </ul>
+        <div class="lang-switch">
+          <a href="../cn/">中文</a>
+          <a href="../en/">EN</a>
+          <a href="../jp/" class="active">日本語</a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-carousel" id="heroCarousel">
+        <div class="hero-slide active" style="background-image: url(../assets/images/interior-01.webp);"></div>
+        <div class="hero-slide" style="background-image: url(../assets/images/interior-02.webp);"></div>
+        <div class="hero-slide" style="background-image: url(../assets/images/interior-03.webp);"></div>
+        <div class="hero-slide" style="background-image: url(../assets/images/interior-04.webp);"></div>
+      </div>
+      <div class="hero-grid-overlay"></div>
+      <div class="hero-content container">
+        <p class="hero-tag">東京・御徒町</p>
+        <h1>お客様に忘れられない<br>ひと時を。</h1>
+        <p class="hero-sub">予約優先・完全個室で新感覚メンズエステで最高の癒しを。<br>ようこそ、御徒町極上癒しメンズエステ・泡洗体 Foreign SPA へ。</p>
+        <a href="../booking.html" class="btn btn-primary">ご来店予約</a>
+        <div class="hero-quick-nav">
+          <a href="#event" class="hero-nav-pill">キャンペーン</a>
+          <a href="#therapist" class="hero-nav-pill">セラピスト</a>
+          <a href="#news" class="hero-nav-pill">お知らせ</a>
+          <a href="#visit" class="hero-nav-pill">アクセス</a>
+        </div>
+      </div>
+      <div class="hero-dots" id="heroDots">
+        <button class="hero-dot active" data-index="0" aria-label="Slide 1"></button>
+        <button class="hero-dot" data-index="1" aria-label="Slide 2"></button>
+        <button class="hero-dot" data-index="2" aria-label="Slide 3"></button>
+        <button class="hero-dot" data-index="3" aria-label="Slide 4"></button>
+      </div>
+      <div class="hero-scroll">
+        <span>Scroll</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <section class="intro section">
+      <div class="container intro-grid">
+        <div class="intro-text">
+          <p class="section-label">Welcome</p>
+          <h2>完全個室で<br>心も体もリセット</h2>
+          <p>泡洗体からアロマオイル、DEEPリンパまで、ワンストップで至福のひとときを。仲御徒町駅A8出口から徒歩1分の完全個室サロン。</p>
+        </div>
+        <div class="intro-features">
+          <div class="intro-promo-image">
+            <img src="../assets/images/interior-04.webp" alt="Foreign SPA interior" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="event-banner-section" id="event">
+      <div class="container event-banner">
+        <div class="event-badge">オールタイム</div>
+        <p class="event-label">キャンペーン</p>
+        <h2 class="event-title">6月特別キャンペーン</h2>
+        <ul class="event-list">
+            <li class="event-row">
+              <span class="event-min">70分</span>
+              <span class="event-price"><s>¥10,000</s> <strong>¥9,000</strong></span>
+              <a href="../booking.html?service=70min" class="event-book-btn">
+                <svg viewBox="0 0 24 24" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.884-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" fill="currentColor"/></svg>
+                <span>ご予約</span>
+              </a>
+            </li>
+            <li class="event-row">
+              <span class="event-min">90分</span>
+              <span class="event-price"><s>¥12,000</s> <strong>¥10,000</strong></span>
+              <a href="../booking.html?service=90min" class="event-book-btn">
+                <svg viewBox="0 0 24 24" width="18" height="18"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.884-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" fill="currentColor"/></svg>
+                <span>ご予約</span>
+              </a>
+            </li>
+        </ul>
+        <p class="event-footer">（泡洗体＋ボディケア＋アロマオイル or パウダー＋DEEPリンパ＋シャワー）</p>
+      </div>
+    </section>
+
+    <section class="therapist-section section section-alt" id="therapist">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">セラピスト</p>
+          <h2>セラピスト一覧</h2>
+          <p class="section-sub">経験豊富な美人セラピストが在籍しております。</p>
+        </header>
+        <div class="therapist-grid">
+          <article class="therapist-card">
+            <div class="therapist-photo">
+              <img src="../assets/images/therapist-01.webp" alt="かおり" loading="lazy">
+            </div>
+            <h3 class="therapist-name">かおり</h3>
+            <p class="therapist-meta">163cm</p>
+          </article>
+          <article class="therapist-card">
+            <div class="therapist-photo">
+              <img src="../assets/images/therapist-02.webp" alt="えみ" loading="lazy">
+            </div>
+            <h3 class="therapist-name">えみ</h3>
+            <p class="therapist-meta">23歳 · 161cm</p>
+          </article>
+          <article class="therapist-card">
+            <div class="therapist-photo">
+              <img src="../assets/images/therapist-03.webp" alt="ひとみ" loading="lazy">
+            </div>
+            <h3 class="therapist-name">ひとみ</h3>
+            <p class="therapist-meta">23歳 · 158cm</p>
+          </article>
+          <article class="therapist-card">
+            <div class="therapist-photo">
+              <img src="../assets/images/therapist-04.webp" alt="りさ" loading="lazy">
+            </div>
+            <h3 class="therapist-name">りさ</h3>
+            <p class="therapist-meta">24歳 · 160cm</p>
+          </article>
+          <article class="therapist-card">
+            <div class="therapist-photo">
+              <img src="../assets/images/therapist-05.webp" alt="なお" loading="lazy">
+            </div>
+            <h3 class="therapist-name">なお</h3>
+            <p class="therapist-meta">24歳 · 157cm</p>
+          </article>
+          <article class="therapist-card">
+            <div class="therapist-photo">
+              <img src="../assets/images/therapist-06.webp" alt="ゆみ" loading="lazy">
+            </div>
+            <h3 class="therapist-name">ゆみ</h3>
+            <p class="therapist-meta">23歳 · 157cm</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="news-section section" id="news">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">新着情報</p>
+          <h2>News</h2>
+        </header>
+        <div class="news-list">
+          <article class="news-item">
+            <p class="news-date">2026年6月29日</p>
+            <h3 class="news-title">心を込めたマッサージで日々の疲れを癒しませんか？</h3>
+            <p class="news-body">気持ちが満足すると体も軽くなります。当店独自の手技と手法でお客様を癒しの世界に導きます。美人セラピストが醸し出す雰囲気をご堪能下さい。</p>
+          </article>
+          <article class="news-item">
+            <p class="news-date">2026年6月22日</p>
+            <h3 class="news-title">ジメジメとした梅雨空が続いておりますが、体調を崩してはいませんか？</h3>
+            <p class="news-body">雨の日は知らず知らずのうちに身体に緊張が溜まり、むくみが出やすくなるといわれています。梅雨の時期を快適に乗り切るためにも、リンパマッサージで身体の老廃物を流し、緊張をほぐしてリフレッシュしませんか？ お気軽にご予約・ご来店ください。スタッフ一同、お待ちしております！</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="env-carousel-section" aria-label="Interior">
+      <div class="container">
+        <header class="section-header">
+          <p class="section-label">Gallery</p>
+          <h2>Interior</h2>
+          <p class="section-sub">完全個室、贅沢な内装、上質なひととき。</p>
+        </header>
+        <div class="env-carousel" id="envCarousel">
+          <div class="env-carousel-track" id="envTrack">
+            <div class="env-carousel-slide">
+              <img src="../assets/images/interior-01.webp" alt="Foreign SPA interior" loading="lazy">
+            </div>
+            <div class="env-carousel-slide">
+              <img src="../assets/images/interior-02.webp" alt="Foreign SPA interior" loading="lazy">
+            </div>
+            <div class="env-carousel-slide">
+              <img src="../assets/images/interior-03.webp" alt="Foreign SPA interior" loading="lazy">
+            </div>
+            <div class="env-carousel-slide">
+              <img src="../assets/images/interior-04.webp" alt="Foreign SPA interior" loading="lazy">
+            </div>
+          </div>
+        </div>
+        <div class="env-carousel-nav">
+          <button class="env-carousel-btn" id="envPrev" aria-label="Previous">&larr;</button>
+          <div class="env-dots" id="envDots"></div>
+          <button class="env-carousel-btn" id="envNext" aria-label="Next">&rarr;</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="visit section" id="visit">
+      <div class="container visit-grid">
+        <div class="visit-info">
+          <p class="section-label">アクセス</p>
+          <h2>ご来店案内</h2>
+          <div class="visit-details">
+            <div class="visit-item">
+              <h4>住所</h4>
+              <p>〒110-0005<br>東京都台東区上野 6-1-6 グリーンハイツ 209</p>
+            </div>
+            <div class="visit-item">
+              <h4>営業時間</h4>
+              <p>毎日 12:00 – 翌03:00<br>年中無休</p>
+            </div>
+            <div class="visit-item">
+              <h4>アクセス</h4>
+              <p>仲御徒町駅 A8出口 徒歩1分</p>
+            </div>
+            <div class="visit-item">
+              <h4>電話</h4>
+              <p><a href="tel:+819068778642">+81 90-6877-8642</a></p>
+            </div>
+          </div>
+          <a href="https://www.google.com/maps/place/Foreign+SPA/@35.7084281,139.7758798,17z/data=!3m1!4b1!4m6!3m5!1s0x60188fba446e98b7:0xe60af4c56e820695" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Google マップで開く</a>
+        </div>
+        <div class="visit-map">
+          <iframe
+            title="Foreign SPA map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.7!2d139.7758798!3d35.7084281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188fba446e98b7%3A0xe60af4c56e820695!2sForeign+SPA!5e0!3m2!1sja!2sjp!4v1735725000000"
+            width="100%"
+            height="100%"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span class="logo">Foreign SPA</span>
+      <p class="footer-tagline">本格リラクゼーション、完全個室で。</p>
+      <p class="footer-copy">&copy; 2026 Foreign SPA. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Top" title="Top">&uarr;</button>
+  <script src="../script.js"></script>
+</body>
+</html>
